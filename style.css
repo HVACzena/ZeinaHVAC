@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f4f4f4;
+  color: #222222;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: #1a1a1a;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #555555;
+  font-weight: 500;
+  padding: 10px 15px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #0070f3;
+  border-bottom: 2px solid #0070f3;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/nyc-hvac.jpg') center/cover no-repeat;
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+.hero .btn {
+  background-color: #0070f3;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background-color: #005bb5;
+}
+
+.page-header {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  padding: 60px 0;
+  text-align: center;
+  font-size: 32px;
+}
+
+section.content {
+  padding: 60px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.service {
+  background: white;
+  padding: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.service h4 {
+  margin-top: 0;
+  color: #0070f3;
+}
+
+.contact-form input, 
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #005bb5;
+}
+
+footer {
+  background-color: #ffffff;
+  color: #555555;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  border-top: 1px solid #e0e0e0;
+}
